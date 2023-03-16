@@ -1,0 +1,115 @@
+@import "./variables";
+
+.wods--main__container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  .selection--container {
+    border: 2px solid $primary--color;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 1px 27px -5px rgba(66, 68, 90, 1);
+    color: #fff;
+    background-color: $secondary--color;
+    font-family: $main-font;
+    width: 300px;
+    height: 150px;
+
+    .choose--wods__button {
+      background-color: rgba(145, 163, 176);
+      border: none;
+      border-radius: 20px;
+      box-shadow: 0px 1px 27px -5px rgba(66, 68, 90, 1);
+      font-family: $main-font;
+      font-size: 15px;
+      padding: 12px 50px;
+      color: #fff;
+    }
+
+    .WODs--header {
+      font-family: $main-font;
+      font-size: 26px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid rgba(66, 68, 90, 0.5);
+    }
+
+    .choose--wods__button {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+  }
+
+  .wod--container {
+    border: 2px solid $primary--color;
+    border-radius: 25px;
+    box-shadow: 0px 1px 27px -5px rgba(66, 68, 90, 1);
+    color: #fff;
+    background-color: $secondary--color;
+    font-family: $main-font;
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+    overflow-x: auto;
+
+    .number--of__wod {
+      font-family: $main-font;
+      font-size: 36px;
+      display: flex;
+      color: $primary--color;
+      justify-content: space-around;
+    }
+
+    .wods--container__header {
+      padding-top: 10px;
+      border-top: 1px solid rgba(66, 68, 90, 0.5);
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(66, 68, 90, 0.5);
+      font-size: 36px;
+    }
+
+    .wod--card__container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .work--of--the__day {
+        font-size: 26px;
+      }
+
+      .wod--description {
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+#popup-2 {
+  background-color: rgb(145, 163, 176);
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+
+    li a {
+      text-decoration: none;
+      margin-top: 10px;
+      padding: 10px;
+      font-family: $main-font;
+      font-size: 20px;
+      color: $primary--color;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  .close {
+    cursor: pointer;
+  }
+}

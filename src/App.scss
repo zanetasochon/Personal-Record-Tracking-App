@@ -1,0 +1,18 @@
+@import "./scss/variables";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "./scss/dashboard.scss";
+@import "./scss/Header.scss";
+@import "./scss/signin.scss";
+@import "./scss/signup.scss";
+@import "./scss/sidebar.scss";
+@import "./scss/PRs.scss";
+@import "./scss/WODs.scss";
+@import "./scss/moodboard.scss";
+@import "./scss/weather.scss";
+@import "./scss/stopwatch.scss";

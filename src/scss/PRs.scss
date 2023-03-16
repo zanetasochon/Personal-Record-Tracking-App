@@ -1,0 +1,110 @@
+@import "./variables";
+
+.prs--main__container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  .selection--container {
+    border: 2px solid $primary--color;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 1px 27px -5px rgba(66, 68, 90, 1);
+    color: #fff;
+    background-color: $secondary--color;
+    font-family: $main-font;
+    width: 300px;
+    height: 150px;
+
+    .prs--header {
+      font-family: $main-font;
+      font-size: 36px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid rgba(66, 68, 90, 0.5);
+    }
+
+    .choose--exercise__carusel,
+    .exercise {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .exercise--container {
+    border: 2px solid $primary--color;
+    border-radius: 25px;
+    box-shadow: 0px 1px 27px -5px rgba(66, 68, 90, 1);
+    color: #fff;
+    background-color: $secondary--color;
+    font-family: $main-font;
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+    .icon--add--pr__form {
+      margin-left: 110px;
+
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    .PRs--icons {
+      display: flex;
+      font-size: 20px;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      padding-top: 10px;
+    }
+
+    .exercise--container__header {
+      color: $primary--color;
+      margin-bottom: 5px;
+    }
+
+    .carusel--container__exercise {
+      border: 1px solid rgba(66, 68, 90, 1);
+      border-radius: 25px;
+      padding: 10px;
+      width: 250px;
+      height: 350px;
+      overflow-x: auto;
+      .exercise--wrapper {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(66, 68, 90, 1);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        border-bottom: 1px solid rgba(66, 68, 90, 0.5);
+        margin-top: 10px;
+
+        .add--pr__button {
+          background-color: $primary--color;
+          border: none;
+          border-radius: 20px;
+          font-family: $main-font;
+          font-size: 15px;
+          padding: 5px 5px;
+          color: #fff;
+          margin-bottom: 15px;
+          margin-top: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+button.p-button.p-component.p-autocomplete-dropdown.p-button-icon-only {
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 5px;
+  cursor: pointer;
+}
+

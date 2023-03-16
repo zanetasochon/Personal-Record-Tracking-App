@@ -1,0 +1,28 @@
+@import "./variables";
+
+.container--header {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 20px;
+
+  .header--logo__container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
+    font-family: $main-font;
+    font-size: 26px;
+
+    .header--logo {
+      margin: 0;
+    }
+
+    .fa-dumbbell {
+      font-size: 40px;
+      transform: rotate(-45deg);
+    }
+  }
+}

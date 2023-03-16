@@ -1,0 +1,15 @@
+.components--wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  background: $background--color;
+  height: 100vh;
+
+  .main--functionality__container {
+    display: flex;
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    left: 220px;
+    gap: 150px;
+  }
+}
